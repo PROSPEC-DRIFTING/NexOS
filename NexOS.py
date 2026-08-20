@@ -493,6 +493,20 @@ def terminal():
 
             stopwatch()
 
+        # ====================================================
+        # SETTINGS
+        # ====================================================
+
+        elif command == "settings":
+            settings(current_user=None)
+
+
+        # ====================================================
+        # UPDATE ELIF
+        # ====================================================
+
+        elif command == "update":
+            update_nexos()
 
         # ====================================================
         # UNKNOWN COMMAND
@@ -503,13 +517,6 @@ def terminal():
             print("")
             print(f"Unknown command: {command}")
             print("Type 'help' to see available commands.")
-
-        # ====================================================
-        # SETTINGS
-        # ====================================================
-
-        elif command == "settings":
-            settings(current_user=None)
 
 # ============================================================
 # NEXOS UPDATE SYSTEM
