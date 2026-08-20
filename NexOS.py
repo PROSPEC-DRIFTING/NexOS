@@ -21,7 +21,7 @@ import subprocess
 # ============================================================
 
 
-VERSION = "1.1.5"
+VERSION = "1.1.9"
 
 UPDATE_VERSION_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/version.json"
 UPDATE_FILE_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/NexOS.py"
