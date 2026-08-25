@@ -26,9 +26,9 @@ import platform
 
 VERSION = "1.2.0"
 
-UPDATE_VERSION_URL = "https://raw.githubusercontent.com/Sweaty-Guy/NexOS/main/version.json"
+UPDATE_VERSION_URL = "https://raw.githubusercontent.com/PROSPEC-DRIFTING/NexOS/main/version.json"
 
-UPDATE_FILE_URL = "https://raw.githubusercontent.com/Sweaty-Guy/NexOS/main/NexOS.py"
+UPDATE_FILE_URL = "https://raw.githubusercontent.com/PROSPEC-DRIFTING/NexOS/main/NexOS.py"
 
 BACKUP_FILE = "NexOS_backup.py"
 
